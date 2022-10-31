@@ -1,0 +1,8 @@
+ul li {
+    width:400px;
+    display:inline-block;
+}
+
+ul li a {
+    color:red;
+}
