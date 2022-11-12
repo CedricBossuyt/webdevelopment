@@ -1,0 +1,11 @@
+body > section > header {background-image: url(/labo_7/images/header.jpg); padding-bottom: 100px; background-repeat: no-repeat}
+body{margin: 0 auto;width: 1200px}
+body > section > header > h1{color: white;font-family: Helvetica sans-serif;font-size: 50px}
+.titel{text-decoration: underline;color: gray;font-family: "Helvetica";font-size: 30px}
+.artikel{background-color: lightgray; margin: 5px; padding: 5px}
+nav{background-color: black; padding: 5px; border-left: 6px greenyellow; border-right: 30px greenyellow}
+body > section > nav > a{color: greenyellow;font-size: 20px;}
+body > section > nav > a:visited{text-decoration: none}
+body > section > nav > a:link{text-decoration: none}
+body > section > nav > a:hover{text-decoration: wavy}
+body > section > nav > a:active{text-decoration: none}

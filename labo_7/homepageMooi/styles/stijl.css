@@ -1,0 +1,41 @@
+body > article{background-color: #EDF2F4; font-size: 16px}
+body{width: 1200px; margin: 0 auto; background-image: url("/labo_7/homepageMooi/images/background.png");}
+body > h3{font-family: "Bahnschrift";}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Book Antiqua";
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+body > article > blockquote > p
+{
+    margin: 0;
+    background-image: url('/labo_7/homepageMooi/images/blueCircle.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 10px;
+    font-family: Tahoma;
+}
+
+body > article > table { border-collapse: collapse; text-align: left; width: 100%; }
+body > article > table {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #63A3CF; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+body > article > table td, body > article > table th { padding: 6px 10px; }
+body > article > table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #006699) );background:-moz-linear-gradient( center top, #006699 5%, #006699 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#006699');background-color:#006699; color:#FFFFFF; font-size: 15px; font-weight: bold; }
+body > article > table thead th:first-child { border: none; }
+body > article > table tbody td { color: #00557F; font-size: 12px;font-weight: normal; }
+body > article > table tbody .alt td { background: #E1EEf4; color: #00557F; }
+body > article > table tbody td:first-child { border-left: none; }
+body > article > table tbody tr:last-child td { border-bottom: none; }
+body > article > table > tbody > tr:nth-child(1) > td:nth-child(4){background-color: red;}
+body > article > table > tbody > tr:nth-child(5) > td:nth-child(3){background-color: red;}
