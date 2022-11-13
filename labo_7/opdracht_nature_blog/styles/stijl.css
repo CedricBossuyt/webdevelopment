@@ -1,4 +1,4 @@
-body > section > header {background-image: url(/labo_7/images/header.jpg); padding-bottom: 100px; background-repeat: no-repeat}
+body > section > header {background-image: url('/labo_7/images/header.jpg'); padding-bottom: 100px; background-repeat: no-repeat}
 body{margin: 0 auto;width: 1200px}
 body > section > header > h1{color: white;font-family: Helvetica sans-serif;font-size: 50px}
 .titel{text-decoration: underline;color: gray;font-family: "Helvetica";font-size: 30px}
