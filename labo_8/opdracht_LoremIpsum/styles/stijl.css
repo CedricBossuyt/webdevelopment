@@ -1,0 +1,21 @@
+body{
+    display: flex;
+}
+
+.Left{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    padding:10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.Right{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    padding:10px;
+    margin: 10px;
+    border: 1px solid black;
+}
