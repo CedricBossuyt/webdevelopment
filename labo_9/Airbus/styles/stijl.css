@@ -1,0 +1,132 @@
+html {
+    width: 960px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+}
+
+body > div.Top > p:nth-child(1)
+{
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+body > div.Top > p:nth-child(2)
+{
+    font-size: 240%;
+    font-weight: bold;
+}
+
+footer
+{
+    background-color: #666666;
+    color: white;
+}
+
+a {
+    color: inherit;
+}
+
+main
+{
+    width: 700px;
+}
+
+.News
+{
+
+    width: 250px;
+    float: right;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    color: #666666;
+}
+
+body > div:nth-child(3) > div:nth-child(1) > img
+{
+    float:left;
+}
+
+span
+{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+body > div:nth-child(3) > div:nth-child(1) > img
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Introduction {
+    padding-left: 130px;
+    margin: 20px 30px 30px 10px;
+}
+
+.Top{
+    background-image: url('../fotos/bgsky3.jpg');
+    height: 200px;
+    text-align: center;
+    color: darkblue;
+}
+
+body > div.Top > img
+{
+    position: absolute;
+    right: 370px;
+    top: 80px;
+}
+
+.Copyright
+{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+h3
+{
+    font-size: 120%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+}
+
+body > article > p
+{
+    font-size: 90%;
+    color: #666666;
+    padding: 10px;
+}
+
+.Gallery{
+    padding: 20px 0px 20px 0px;
+    background-color: #999999;
+
+}
+
+.foto
+{
+
+    display: inline-block;
+    width: 180px;
+    length: 180px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: dotted 1px;
+}
+
+footer article
+{
+    margin-left: 120px;
+    display: inline-block;
+}
+
+body{
+    background-image: url("../fotos/pagebackground.png");
+    background-position-x: center;
+}
