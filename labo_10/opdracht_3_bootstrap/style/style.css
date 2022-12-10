@@ -1,0 +1,9 @@
+
+
+div[class*='col']{
+    height: 200px;
+    box-sizing: border-box;
+    border: white 10px solid;
+    background-color: gray;
+}
+
