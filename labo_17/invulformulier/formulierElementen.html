@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Invulformulier</title>
+</head>
+<body>
+    <div class="border">
+        <div>First name*: <label><input type="text" placeholder="Your first name"></label> </div>
+        <div>Last name*: <label><input type="text" placeholder="Your last name"></label> </div>
+        <div>Which sport do you train?</div>
+        <div>Running <label><input type="checkbox"></label></div>
+        <div>Swimming <label><input type="checkbox"></label></div>
+        <div>Rowing <label><input type="checkbox"></label></div>
+        <div>What is your gender?</div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label><br>
+        <div>Favorite movie: <label><input type="text"></label></div>
+        <div>First quote: <label><input type="text" placeholder="Write your favorite quote"></label></div>
+        <div>Password*: <label><input type="password"></label></div>
+        <div>Favorite food:
+            <label><select name="data-id">
+            <option value="waarde1">Hamburger</option>
+            <option value="waarde2">Pizza Proscuitto</option>
+            <option value="waarde3">Simussy</option>
+            <option value="waarde4">William</option> </select></label> <br>
+        </div>
+        <div><input type="file"> </div>
+        <div>Email adress: <label><input type="text" placeholder="Enter your email adress"></label></div>
+        <div>Favorite site: <label><input type="text" placeholder="Enter your URL of your favorite site"></label></div>
+        <div>Favorite number between 1-10: <label><input type="number" min="1" max="10" ></label></div>
+        <div>Favorite number between 11-1000 <label><input type="range" min="11" max="1000"></label></div>
+        <div>When were you born? <label><input type="date" ></label></div>
+        <div>Belgian zip-code reg number*: <label><input type="text" placeholder="9999"></label></div>
+        <div>Search for something: <label><input type="text"></label></div>
+        <div>What is your favorite color? <label><input type="color"></label></div>
+        <label> <input type="submit"> </label>
+    </div>
+</body>
+</html>
