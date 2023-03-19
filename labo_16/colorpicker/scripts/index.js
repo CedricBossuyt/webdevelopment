@@ -18,6 +18,7 @@ const update = () => {
     let rgbTekst = `rgb(${sliders[0].value},${sliders[1].value},${sliders[2].value})`
     kleur.style.backgroundColor = rgbTekst
 
+
 }
 
 window.addEventListener("load", setup);
