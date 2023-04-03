@@ -4,8 +4,6 @@ const setup = () => {
 		texts[i].addEventListener("click", klik);
 	}	
 }
-
-
 const klik = (event) => {
 	event.target.style.color="red";
 };

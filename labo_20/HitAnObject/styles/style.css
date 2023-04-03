@@ -1,0 +1,15 @@
+html, body{
+    margin: 0px;
+}
+
+#playField{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+}
+
+
+#fotot {
+    position: absolute;
+}
