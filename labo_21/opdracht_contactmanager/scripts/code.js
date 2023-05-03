@@ -47,7 +47,7 @@ const bewerkNieuwePersoon = () => {
 };
 
 const klikOpPersoon = (value) =>{
-    let geupdatePersoon = JSON.parse(value)
+    let geupdatePersoon = JSON.stringify(value)
     document.getElementById("txtVoornaam").value = geupdatePersoon.Voornaam;
     document.getElementById("txtFamilienaam").value = geupdatePersoon.Achternaam;
     document.getElementById("txtGeboorteDatum").value = geupdatePersoon.Geboortedatum
