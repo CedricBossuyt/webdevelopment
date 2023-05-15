@@ -1,0 +1,21 @@
+.header{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+.rij{
+    padding: 10px;
+}
+
+.rij:nth-child(odd){
+    background-color: lightgray;
+}
+
+.tafelke{
+    margin: 10px;
+    width: 300px;
+    border: 1px black solid;
+    display: inline-block;
+}
+
