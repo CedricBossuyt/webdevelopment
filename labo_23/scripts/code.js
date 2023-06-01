@@ -96,7 +96,8 @@ const submitCommand = () => {
             element.innerHTML = info.Titel + " " + info.Beschrijving
             element.appendChild(miniGOButton)
             clearInput()
-        }else{
+        }
+        else{
             window.alert("Unkown command prefix")
         }
     }
@@ -106,7 +107,6 @@ const submitCommand = () => {
     else{
         window.alert("invalid command")
     }
-
     function clearInput() {
         document.getElementById("zoekOpdracht").value = "";
     }

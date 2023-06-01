@@ -1,5 +1,5 @@
 const setup = () => {
-	// deze code wordt pas uitgevoerd als de pagina volledig is ingeladen
+	// deze scripts wordt pas uitgevoerd als de pagina volledig is ingeladen
 }
 
 window.addEventListener("load", setup);
