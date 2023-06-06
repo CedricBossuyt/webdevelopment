@@ -28,7 +28,6 @@ const setup = () => {
                 swatch.id = "swatch"
                 let kleur = global.swatchLijst[i]
                 swatch.style.backgroundColor = kleur
-                console.log(kleur)
                 let xButton = document.createElement("input")
                 xButton.type = "button"
                 xButton.value = "X"
@@ -83,6 +82,5 @@ const saveColor = () => {
 }
 const deleteSwatchke = (event) => {
     event.currentTarget.parentNode.remove()
-    localStorage.removeItem(event.currentTarget.parentNode)
 }
 window.addEventListener("load", setup);
